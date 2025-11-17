@@ -16,6 +16,10 @@
 ### Required Packages 
 The following Python packages are requried to run the project: 
 
+- To install, run the following code:
+```
+pip install -r requirements.txt
+```
 
 ### Map of Repository 
 
