@@ -14,7 +14,7 @@
 - **IDE (recommended):** VS Code or Jupyter Notebook
 
 ### Required Packages 
-The following Python packages are requried to run the project: 
+The following Python packages are required to run the project: 
 
 - To install, run the following code:
 ```
@@ -22,5 +22,33 @@ pip install -r requirements.txt
 ```
 
 ### Map of Repository 
+```
+.
+├── DATA
+│   ├── README.md
+│   ├── fake_images
+│   └── real_images
+├── LICENSE
+├── OUTPUT
+│   ├── AVG_Magnitude_Spectrum.png
+│   ├── AVG_RGB.png
+│   ├── Distribution_Image_Brightness.png
+│   ├── FFT_AVG_Magnitude_Sample_Images.png
+│   ├── Real_Fake_Distribution.png
+│   ├── confusion_matrix.png
+│   ├── fake_face_heatmap.png
+│   ├── model_loss.png
+│   ├── model_scores.png
+│   ├── real_face_heatmap.png
+│   └── tsne_embeddings.png
+├── README.md
+└── SCRIPTS
+    ├── download_data_and_eda.ipynb
+    └── model-training-testing-ipynb.ipynb
+
+6 directories, 16 files
+
+```
+
 
 ### Instructions for Reproduction 
