@@ -54,11 +54,12 @@ pip install -r requirements.txt
 │   ├── real_face_heatmap.png
 │   └── tsne_embeddings.png
 ├── README.md
-└── SCRIPTS
-    ├── download_data_and_eda.ipynb
-    └── model-training-testing-ipynb.ipynb
+├── SCRIPTS
+│   ├── download_data_and_eda.ipynb
+│   └── model-training-testing-ipynb.ipynb
+└── requirements.txt
 
-6 directories, 16 files
+6 directories, 17 files
 
 ```
 
