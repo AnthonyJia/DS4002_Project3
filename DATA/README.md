@@ -54,3 +54,5 @@ We acknowledge these risks, restrict use of the model to academic research, and 
 
 - **Plot 2:** Distribution of Average Magnitude Spectrum (Real vs Fake)
 ![Magnitude Spectrum](/OUTPUT/AVG_Magnitude_Spectrum.png)
+- **Plot 3:** Real vs Fake Distribution
+![Distribution](/OUTPUT/Real_Fake_Distribution.png)
