@@ -11,11 +11,23 @@
 #### Software Used
 - **Programming Language:** Python 3.11  
 - **Version Control:** Git & GitHub  
-- **IDE (recommended):** VS Code or Jupyter Notebook
+- **Software Environments:** Google Colab & Kaggle Notebook
 
 ### Required Packages 
 The following Python packages are required to run the project: 
+- pandas
+- matplotlib
+- seaborn
+- pillow
+- numpy
+- torch
+- torchvision
+- scikit-learn
+- opencv-python
 
+*This project was developed and tested primarily in Google Colab and Kaggle Notebooks. Both environments already include most required machine learning and scientific libraries (e.g., PyTorch, NumPy, Pandas, Matplotlib, Seaborn, Pillow, scikit-learn). So, if you are using Google Colab and/or Kaggle Notebooks, then you don't need to manually install any of these packages.*
+
+*If you are running this project locally, you have to manually install these packages.*
 - To install, run the following code:
 ```
 pip install -r requirements.txt
