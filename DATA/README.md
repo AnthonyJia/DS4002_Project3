@@ -50,7 +50,7 @@ We acknowledge these risks, restrict use of the model to academic research, and 
 
 ## 6. Explanatory Plots
 - **Plot 1:** Distribution of Image Brightness (Real vs Fake) 
-  ![Brightness Distribution](OUTPUT/Distribution_Image_Brightness.png)
-- **Plot 2:** Distribution of Average Magnitude Spectrum (Real vs Fake) 
-  ![Magnitude Spectrum](OUTPUT/AVG_Magnitude_Spectrum.png)
+   ![Brightness Distribution](OUTPUT/Distribution_Image_Brightness.png)
 
+- **Plot 2:** Distribution of Average Magnitude Spectrum (Real vs Fake) 
+   ![Magnitude Spectrum](OUTPUT/AVG_Magnitude_Spectrum.png)
