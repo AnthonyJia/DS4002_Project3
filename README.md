@@ -65,3 +65,36 @@ pip install -r requirements.txt
 
 
 ### Instructions for Reproduction 
+
+#### Step 0: Add Google Drive Shortcuts to datasets
+
+For the [FFHQ dataset](https://drive.google.com/drive/folders/1tZUcXDBeOibC6jcMCtgRRz67pzrAHeHL), add shortcuts to folders (00000 - 09000) to your google drive. The `download_data_and_eda.ipynb` script expects the shortcuts to be in  Mydrive/ai_classification_dataset/ffhq/ folder on your google drive.
+
+To add a shortcut, simply click the three vertical dots on the right side of the folder/file --> Organize --> Add shortcut.
+
+Your folder structure should look something like this:
+```
+MyDrive/
+└── ai_classification_dataset/
+    └── ffhq/
+        ├── 00000 (shortcut)
+        ├── 01000 (shortcut)
+        ├── ...
+        └── 09000 (shortcut)
+```
+
+For the [StyleGAN dataset](https://drive.google.com/open?id=14lm8VRN1pr4g_KVe6_LvyDX1PObst6d4), go into the `psi-0.7` folder, add shortcuts to the **zipped** folders (000000 - 009000) to your google drive. The `download_data_and_eda.ipynb` script expects the shortcuts to be in  Mydrive/ai_classification_dataset/stylegan/ folder on your google drive. 
+
+Your folder structure should look something like this:
+```
+MyDrive/
+└── ai_classification_dataset/
+    └── stylegan/
+        ├── 000000.zip (shortcut)
+        ├── 001000.zip (shortcut)
+        ├── ...
+        └── 009000.zip (shortcut)
+```
+
+
+
