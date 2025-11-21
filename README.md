@@ -15,15 +15,15 @@
 
 ### Required Packages 
 The following Python packages are required to run the project: 
-- pandas
-- matplotlib
-- seaborn
-- pillow
-- numpy
-- torch
-- torchvision
-- scikit-learn
-- opencv-python
+- `pandas` (For loading, cleaning, and manipulating tabular data (DataFrames))
+- `matplotlib` (Core plotting library for creating visual graphs and charts)
+- `seaborn` (Statistical data visualization library built on top of matplotlib with cleaner styles)
+- `pillow` (For opening, editing, and processing images in Python)
+- `numpy` (Efficient numerical computing library; supports arrays, matrices, and math operations)
+- `torch` (Deep learning framework for building and training neural networks)
+- `torchvision` (PyTorch’s companion for image datasets, transforms, and pretrained models)
+- `scikit-learn` (Machine learning library for metrics, preprocessing, and classic ML models)
+- `opencv-python` (Computer vision toolkit for advanced image processing and manipulation)
 
 *This project was developed and tested primarily in Google Colab and Kaggle Notebooks. Both environments already include most required machine learning and scientific libraries (e.g., PyTorch, NumPy, Pandas, Matplotlib, Seaborn, Pillow, scikit-learn). So, if you are using Google Colab and/or Kaggle Notebooks, then you don't need to manually install any of these packages.*
 
