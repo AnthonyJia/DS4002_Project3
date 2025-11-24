@@ -1,6 +1,6 @@
 # Project Metadata
 
-## 1. Data Sumamry 
+## 1. Data Summary 
 This project uses two high-quality face image datasets released by NVIDIA’s NVlabs for non-commercial research: the Flickr-Face-HQ (FFHQ) dataset of real human faces and the StyleGAN dataset of AI-generated synthetic faces. FFHQ contains ~70,000 diverse, aligned facial images at 1024×1024 resolution, sourced from Flickr under Creative Commons licenses. StyleGAN consists of photorealistic face images produced by NVIDIA’s pretrained generative adversarial network.
 
 For this project, we selected a balanced subset of 10,000 real FFHQ images and 10,000 synthetic StyleGAN images, downloaded on November 7, 2025. All images were stored locally following NVIDIA’s published directory structure. This balanced sampling ensured manageable compute requirements while preserving representative variation. All images were later resized to 224×224 for model training and analysis.
